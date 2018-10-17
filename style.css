@@ -458,3 +458,7 @@ form {
     height: 75px;
     margin: 0px auto;
 }
+
+.desc {
+    color: white;
+}
