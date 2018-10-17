@@ -77,13 +77,12 @@ header {
     border: 1px solid black;
 }
 
-#sum {
+.sum {
     padding: 5px 2px 5px 0px;
     float: left;
     width: 25.8%;
     height: 280px;
     margin: 5px 1% 0px 1%;
-    border: 1px solid black;
 }
 
 #subtitle {
@@ -383,4 +382,15 @@ form {
     width: 65%;
     height: 60px;
     background-color: aqua;
+}
+
+#sumhead {
+    text-align: center;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#summary {
+    text-align: center;
+    font-size: 14pt;
 }
