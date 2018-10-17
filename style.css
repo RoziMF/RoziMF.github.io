@@ -1,46 +1,360 @@
 #menukiri {
-    width: 40%;
+    width: 30%;
     float: left;
-    height: 75px;
-    margin: 75px 0px 0px 0px;
+    height: 70px;
+    margin: 115px 0px 0px 0px;
     border: 1px solid black;
 }
 
 
-
 #menukanan {
-     width: 40%;
+    background-color: black;
+     width: 30%;
     float: right;
-    height: 75px;
-    margin: 75px 0px 0px 0px;
+    height: 70px;
+    margin: 115px 0px 0px 0px;
     border: 1px solid black;
 }
 
 #logo {
-    width: 21.3%;
-    height: 225px;
+    width: 41.3%;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    border: 1px solid black;
-    background-color: white;
 }
-
 
 
 header {
-    height: 750px;
+    height: 860px;
     border: 1px solid black;
+    background-image: url(BAHAN/v.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#searchcontent {
-    margin: 27% auto 5px auto;
+.searchcontent {
+    margin: 300px auto 2px auto;
     border: 1px solid black;
     width: 75%;
-    height: 20%;
+    height: 30%;
+    background-color: #E6E7E8;
 }
 
+#pictsearch {
+    margin: 0px 0px 0px 0px;
+    height: 40%;
+}
+
+
+
+
+
+
+
 #search {
-    margin: 45px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    background-color: #E6E7E8;
+}
+
+
+
+#garis1 {
+    border: 3px solid aqua;
+    margin: 0px 0px 0px 0px;
+}
+
+#pics1 {
+    float: left;
+    height: 110px;
+    width : 5%;
+    margin: 0px 1.2% 0px 1.2%;
+}
+
+.sumarry {
+    height: 300px;
+    margin: 0px 0px 0px 0px;
     border: 1px solid black;
+}
+
+#sum {
+    padding: 5px 2px 5px 0px;
+    float: left;
+    width: 25.8%;
+    height: 280px;
+    margin: 5px 1% 0px 1%;
+    border: 1px solid black;
+}
+
+#subtitle {
+    height: 40px;
+    margin: 0px 0px 0px 0px;
+    background-color: #E6E7E8;
+}
+
+.content {
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+}
+
+#contentleft {
+    float: left;
+    width: 27%;
+    height: 365px;
+    margin: 15px 3%;
+    border: 1px solid black;
+}
+
+
+
+#contentmid {
+    float: left;
+    width: 27%;
+    height: 365px;
+    margin: 15px 3%;
+    border: 1px solid black;
+}
+
+#blank {
+
+}
+
+.footer {
+    height: 375px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    background-color: #088998;
+}
+
+.foot {
+    height: 325px;
+    margin: 5px 0px 40px 0px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#footdesc {
+    float: left;
+    width: 35%;
+    height: 325px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+#contact {
+    float: left;
+    width: 35%;
+    height: 325px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    background-color: red;
+}
+
+
+
+.blank {
+    float: none;
+    clear: both;
+    margin: 20px 0px 20px 0px;
+}
+
+.pagefull {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#pics2 {
+    float: right;
+    height: 110px;
+    width : 5%;
+    margin: 0px 1.2% 0px 1.2%;
+}
+
+#gambar {
+    float: left;
+    width: 30%;
+    height: 250px ;
+    margin: 25px;
+    border: 1px solid black;
+}
+
+#isi {
+    float: right;
+    width: 59.5%;
+    height: 250px ;
+    margin: 25px 25px 25px 0px;
+    border: 1px solid black;
+}
+
+.space {
+    float: none;
+    clear: both;
+    margin: 10px 0px 10px 0px;
+}
+
+
+
+.form {
+    height: 1000px;
+    margin: 0px;
+    border: 1px solid black;
+    width: auto;
+}
+
+
+
+
+
+
+
+#menukiri #menu1 {
+    float: left;
+    padding-top: 20px;
+    width: 50%;
+    height: 50px;
+    background-color: black;
+}
+
+#menukanan #menu2 {
+    padding-top: 20px;
+    float: left;
+    width: 50%;
+    height: 50px;
+}
+
+#gambarlogo {
+     width: 96%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#home {
+    margin-left: 0px;
+    height: 30px;
+    float: left;
+}
+
+menu {
+    margin: 10px 0px 0px 0px;
+    font-size: 10pt;
+}
+
+#medal {
+    width: 100%;
+    height: 100%;
+}
+
+#keunggulan {
+    width: 35%;
+    height: 40%;
+    margin: 0px 33%;
+}
+
+#content {
+    width: 99%;
+    height: 55%;
+    border: 1px solid black;
+}
+
+#ringkasan {
+    width: 99%;
+    height: 43%;
+    border: 1px solid black;
+}
+
+form {
+    width: 90%;
+    margin: 36px auto 40px;
+}
+
+.search {
+    margin 10px;
+    width: 85%;
+    padding: 20px 20px;
+}
+
+.button {
+    background-image: url(BAHAN/search%2034.088%20mm%2035.818%20mm.png);
+    background-size: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: relative;
+    padding: 8px 15px;
+    left: 5px;
+    height: 58px;
+    width: 58px;
+    float: right;
+}
+
+#cari {
+    height: 100%;
+    width: 100%;
+}
+
+#lonceng {
+    float: right;
+    width: 50px;
+    height: 60px;
+}
+
+#up {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+#contentright {
+    float: right;
+    width: 27%;
+    height: 365px;
+    margin: 15px 3%;
+    border: 1px solid black;
+}
+
+.berita {
+    margin: 40px auto;
+    width: 75%;
+    height: 320px;
+}
+
+#berita {
+    width: 100%;
+    height: 100%
+}
+
+#bawah {
+    width: 25%;
+    margin: 20px;
+
+}
+
+#sosmed {
+    float: right;
+    width: 29.5%;
+    height: 325px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    background-color: hotpink;
+}
+
+#ikon {
+    width: 15%;
+    height: 70px;
+    float: left;
+    margin: 20px;
+}
+
+
+
+#textikon {
+    float: left;
+    margin: 25px 0px;
+    width: 75%;
+    height: 60px;
+    background-color: aqua;
 }
