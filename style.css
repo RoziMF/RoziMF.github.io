@@ -158,7 +158,7 @@ header {
 .blank {
     float: none;
     clear: both;
-    margin: 20px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 .pagefull {
@@ -442,4 +442,19 @@ form {
 
 .bawahkanan {
     float: right;
+}
+
+.duta {
+    height: 75px;
+    margin: 0px 0px 0px 0px;
+    background-color: #E6E7E8;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#duta {
+    width: 75%;
+    height: 75px;
+    margin: 0px auto;
 }
