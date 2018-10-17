@@ -74,7 +74,6 @@ header {
 .sumarry {
     height: 300px;
     margin: 0px 0px 0px 0px;
-    border: 1px solid black;
 }
 
 .sum {
@@ -89,6 +88,9 @@ header {
     height: 40px;
     margin: 0px 0px 0px 0px;
     background-color: #E6E7E8;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
 }
 
 .content {
@@ -393,4 +395,51 @@ form {
 #summary {
     text-align: center;
     font-size: 14pt;
+}
+
+
+
+.underline {
+    width: 3%;
+    border: 2px solid aqua;
+    margin: 0px auto;
+}
+
+.underline2 {
+    width: 95%;
+    border: 3px solid aqua;
+    margin: 0px auto;
+}
+
+.singkat {
+    font-size: 10pt;
+    margin: 5px;
+}
+
+.title {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.underline3 {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.bawah {
+    text-align: left;
+    float: left;
+    font-size: 11pt;
+
+}
+
+.share {
+    padding: 8px 0px;
+    width: 8%;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.bawahkanan {
+    float: right;
 }
