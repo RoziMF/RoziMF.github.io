@@ -217,11 +217,19 @@ header {
     background-color: black;
 }
 
+#menukiri #menu1:hover {
+    background-color: aqua;
+}
+
 #menukanan #menu2 {
     padding-top: 20px;
     float: left;
     width: 50%;
     height: 50px;
+}
+
+#menukanan #menu2:hover {
+    background-color: aqua;
 }
 
 #gambarlogo {
@@ -239,8 +247,10 @@ header {
 }
 
 menu {
-    margin: 10px 0px 0px 0px;
-    font-size: 10pt;
+    margin: 0px 0px 0px 0px;
+    font-size: 14pt;
+    color: white;
+    font-family: Comic Sans MS;
 }
 
 #medal {
@@ -272,9 +282,10 @@ form {
 }
 
 .search {
+    font-size: 14pt;
     margin 10px;
     width: 85%;
-    padding: 20px 20px;
+    padding: 15px 15px;
 }
 
 .button {
