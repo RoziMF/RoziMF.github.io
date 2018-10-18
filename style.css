@@ -150,7 +150,7 @@ header {
     height: 325px;
     margin: 0px 0px 0px 0px;
     border: 1px solid black;
-    background-color: red;
+    background-color: black;
 }
 
 
@@ -351,7 +351,7 @@ form {
     height: 325px;
     margin: 0px 0px 0px 0px;
     border: 1px solid black;
-    background-color: hotpink;
+    background-color: black;
 }
 
 #ikon {
@@ -368,7 +368,7 @@ form {
     margin: 25px 0px;
     width: 75%;
     height: 60px;
-    background-color: aqua;
+    background-color: black;
 }
 
 #icon {
@@ -383,7 +383,7 @@ form {
     margin: 25px 0px;
     width: 65%;
     height: 60px;
-    background-color: aqua;
+    background-color: black;
 }
 
 #sumhead {
@@ -461,4 +461,24 @@ form {
 
 .desc {
     color: white;
+}
+
+.down {
+    color: white;
+}
+
+.pictduta {
+    float: left;
+    width: 7.2%;
+}
+
+.daftar {
+    width: 17%;
+    margin: 3px 15px;
+    float: left;
+}
+
+#daftar {
+    float: left;
+    margin: 3px 15px;
 }
