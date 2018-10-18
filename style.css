@@ -26,7 +26,6 @@
 
 
 
-
 .searchcontent {
     margin: 300px auto 2px auto;
     border: 1px solid black;
@@ -210,9 +209,13 @@
     background-color: black;
 }
 
+
+
 #menukiri #menu1:hover {
     background-color: #088998;
 }
+
+
 
 #menukanan #menu2 {
     padding-top: 20px;
@@ -564,3 +567,45 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#subtitlecon {
+    height: 50px;
+    width: 3%;
+    background-color: black;
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
+#subtitlecon:hover {
+    background-color: #088998;
+}
+
+.np {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 15px;
+    color: white;
+}
+
+#subtitlenex {
+    height: 50px;
+    width: 10%;
+    background-color: black;
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+
+#subtitlenex:hover {
+    background-color: #088998;
+}
+
+
+
+
+
+}
+
+
+
+
