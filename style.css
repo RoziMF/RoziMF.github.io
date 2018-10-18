@@ -556,3 +556,11 @@ form {
     height: 40px;
     margin-left: 5px;
 }
+
+.wp-form {
+    height: 860px;
+    border: 1px solid black;
+    background-image: url(BAHAN/wallpaper%20form.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

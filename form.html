@@ -9,12 +9,13 @@
 
 <body>
     <div class="pagefull">
-        <header>
+        <header class="wp-form">
             <div id="menu">
                 <div id="menukiri">
                     <a href="index.html">
                     <div id="menu1">
                         <img id="home" src="BAHAN/home%2029.986%20mm.png" alt="home"><menu>HOME</menu>
+                        <a href="index.html#duta"><img id="lonceng" src="BAHAN/lonceng%2026.371%20mm%2029.202%20mm.png" alt="notif"></a>
                     </div>
                     </a>
                     <a href="destination.html">
@@ -53,16 +54,135 @@
             </div>            
         </header>
         <div class="form">
-            
+            <form action="action_page.html">
+        <fieldset>
+            <legend>
+                <h1>DAFTAR</h1>
+            </legend>
+            <table width="100%" border="0" align="center" cellpadding="5" cellspacing="0">
+               <tr>
+                   <td width="100"><font color="red" weight="bold" size="2" face="Trebuchet MS"><i>tanda (<span>*</span>) wajib diisi</i></font></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Nama Lengkap<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" name="nama" type="text" size="50" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Username<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" name="username" type="text" size="50" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">E-Mail<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" name="email" type="text" size="50" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Kata Sandi<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" name="pass" type="password" size="50" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Masukkan Ulang Kata Sandi<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="pass" name="pass" type="password" size="50" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Jenis Kelamin<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" type="radio" name="gender" id="L"><font face="Trebuchet MS">Laki-laki</font><br>
+                        <input required="" type="radio" name="gender" id="P"><font face="Trebuchet MS">Perempuan</font>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Kebangsaan<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500">
+                        <select required="" name="kebangsaan" id="kebangsaan">
+                            <option value="">Pilih Kebangsaan</option>
+                            <option value="id">Indonesia</option>
+                            <option value="asing">Non-Indonesia</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Alamat<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><textarea required=""
+                     name="alamat" id="alamat" cols="37" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Tempat Lahir<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" name="tempatlahir" type="text" size="50" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Tanggal Lahir<font color="red">*</font></font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input required="" type="date" name="bday" id="bday"></td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Pariwisata Kesukaan <br> (Boleh pilih lebih dari 1)</font></td>
+                    <td width="1">:</td>
+                    <td width="500"><input type="checkbox" name="wisata" id="1">Kolam Renang <br>
+                    <input type="checkbox" name="wisata" id="2">Pantai <br>
+                    <input type="checkbox" name="wisata" id="3">Air Terjun <br>
+                    <input type="checkbox" name="wisata" id="4">Gunung <br>
+                    <input type="checkbox" name="wisata" id="5">Danau <br>
+                    <input type="checkbox" name="wisata" id="6">Taman Botani <br>
+                    <input type="checkbox" name="wisata" id="7">Wisata Sejarah <br>
+                    <input type="checkbox" name="wisata" id="8">Perkebunan <br>
+                    <input type="checkbox" name="wisata" id="9">Karnaval <br>
+                    <input type="checkbox" name="wisata" id="10">Lain-lain</td>
+                </tr>
+                <tr>
+                    <td width="100"><font face="Trebuchet MS">Masukkan Foto Profil</font></td>
+                    <td width="1"></td>
+                    <td width="500"><input type="file" name="pp" id="pp"></td>
+                </tr>
+            </table>
+                <input type="checkbox" required=""><font face="Trebuchet MS"> Saya setuju dengan <a href="syarat-ketentuan.html">Syarat dan Ketentuan</a> dan <a href="privasi.html">Kebijakan Privasi</a></font>
+            <br>
+            <br>
+            <button type="submit"><font size="5" face="Trebuchet MS">Daftar</font></button> <button type="reset"><font size="5" face="Trebuchet MS">Reset</font></button>
+        </fieldset>
+    </form>
         </div>
          <footer>
+            <div class="blank">&nbsp;</div>
             <div class="footer">
                <div class="foot">
                    <div id="footdesc">
-                    
+                    <img id="bawah" src="BAHAN/logo.png" alt="logo">
+                    <p class="desc">Website resmi Dinas Pariwista Jember yang bertujuan untuk mempermudah wisatawan lokal maupun domestik untuk mendapatkan informasi dan mengeksplor tentang keindahan destinasi wisata, event, dan juga kuliner yang ada di Kota Jember</p>
                     </div>
                     <div id="contact">
-                        
+                        <img id="ikon" src="BAHAN/alamat.png" alt="alamat">
+                        <div id="textikon">
+                            <p class="down">Jl. Jawa 74 Jember, Sumbersari, Gumuk Kerang, Kabupaten Jember, Jawa Timur</p>
+                        </div>
+                        <img id="ikon" src="BAHAN/gmail.png" alt="mail">
+                        <div id="textikon">
+                            <p class="down">jemberpariwisata@gmail.com</p>
+                        </div>
+                        <img id="ikon" src="BAHAN/kontak.png" alt="alamat">
+                        <div id="textikon">
+                            <p class="down">(0331)335244</p>
+                        </div>
+                    </div>
+                    <div id="sosmed">
+                        <img id="icon" src="BAHAN/fb.png" alt="alamat">
+                        <div id="texticon">
+                            <p class="down">Pariwisata Jember</p>
+                        </div>
+                        <img id="icon" src="BAHAN/twitter%2013.355%20mm%2014.077%20mm.png" alt="mail">
+                        <div id="texticon">
+                            <p class="down">@pariwisata_jember</p>
+                        </div>
+                        <img id="icon" src="BAHAN/ig.png" alt="alamat">
+                        <div id="texticon">
+                            <p class="down">@pariwisata_jember</p>
+                        </div>
                     </div>
                </div>
             </div>
