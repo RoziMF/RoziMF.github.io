@@ -642,3 +642,15 @@ span {
 #form {
     width: 50%;
 }
+
+h1 {
+    color: #088998;
+}
+
+fieldset {
+    border: 2px solid #088998;
+}
+
+.judul {
+    text-align: center;
+}
