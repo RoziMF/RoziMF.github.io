@@ -609,3 +609,36 @@ form {
 
 
 
+
+table {
+    width="100%";
+    border="0px";
+}
+
+
+
+.ket {
+    width: 50%;
+    color: red;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family:  Trebuchet MS;
+    font-style: italic;
+}
+
+.per {
+    width: 50%;
+    font-family: Trebuchet MS;
+}
+
+span {
+    color: red;
+}
+
+.tengah {
+    width: 1%;
+}
+
+#form {
+    width: 50%;
+}
