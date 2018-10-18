@@ -90,7 +90,7 @@
 .content {
     height: 400px;
     margin: 0px 0px 0px 0px;
-    background-color: #088998;
+    background-color: white;
 }
 
 #contentleft {
@@ -542,4 +542,17 @@ form {
     font-size: 20pt;
     color: white;
     margin: 14px 15px;
+}
+
+.contentcon {
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+    background-color: #088998;
+}
+
+.sharecon {
+    padding: 8px 0px;
+    width: 5%;
+    height: 40px;
+    margin-left: 5px;
 }
