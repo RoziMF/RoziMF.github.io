@@ -3,6 +3,7 @@
     float: left;
     height: 70px;
     margin: 115px 0px 0px 0px;
+    border: 1px solid white;
 }
 
 
@@ -12,10 +13,11 @@
     float: right;
     height: 70px;
     margin: 115px 0px 0px 0px;
+    border: 1px solid white;
 }
 
 #logo {
-    width: 41.3%;
+    width: 41%;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -23,13 +25,7 @@
 }
 
 
-header {
-    height: 860px;
-    border: 1px solid black;
-    background-image: url(BAHAN/v.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .searchcontent {
     margin: 300px auto 2px auto;
@@ -94,6 +90,7 @@ header {
 .content {
     height: 400px;
     margin: 0px 0px 0px 0px;
+    background-color: #088998;
 }
 
 #contentleft {
@@ -170,16 +167,17 @@ header {
 #gambar {
     float: left;
     width: 30%;
-    height: 350px ;
-    margin: 25px;
+    height: 250px ;
+    margin: 75px 25px;
     border: 1px solid black;
 }
 
 #isi {
     float: right;
     width: 59.5%;
-    height: 350px ;
-    margin: 25px 25px 25px 0px;
+    height: 250px ;
+    margin: 75px 25px 75px 0px;
+    background-color: black;
     border: 1px solid black;
 }
 
@@ -479,4 +477,69 @@ form {
 #daftar {
     float: left;
     margin: 3px 15px;
+}
+
+.wp {
+    height: 860px;
+    border: 1px solid black;
+    background-image: url(BAHAN/v.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-event {
+    height: 860px;
+    border: 1px solid black;
+    background-image: url(BAHAN/walpaper%20event.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-kuliner {
+    height: 860px;
+    border: 1px solid black;
+    background-image: url(BAHAN/walpaper%20kuliner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wp-dest {
+    height: 860px;
+    border: 1px solid black;
+    background-image: url(BAHAN/walpaper%20destinasi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gambar {
+    width: 100%;
+    height: 100%
+}
+
+.titlecon {
+    margin: 10px 15px;
+    font-weight: bold;
+    color: white;
+    font-size: 24pt;
+}
+
+.singkatcon {
+    font-size: 18pt;
+    margin: 10px 15px;
+    color: white;
+}
+
+.bawahcon {
+    text-align: left;
+    float: left;
+    font-size: 20pt;
+    color: white;
+    margin: 14px 15px;
+}
+
+.bawahkanancon {
+    float: right;
+    font-size: 20pt;
+    color: white;
+    margin: 14px 15px;
 }
