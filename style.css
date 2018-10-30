@@ -487,7 +487,6 @@ form {
     height: 860px;
     border: 1px solid black;
     background-image: url(BAHAN/v.png);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
