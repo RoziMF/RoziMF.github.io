@@ -1,36 +1,57 @@
-#menukiri {
-    width: 30%;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
     float: left;
+    padding: 0px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menukiri {
     height: 70px;
     margin: 115px 0px 0px 0px;
     border: 1px solid white;
 }
 
 
-#menukanan {
+.menukanan {
     background-color: black;
-     width: 30%;
-    float: right;
     height: 70px;
     margin: 115px 0px 0px 0px;
     border: 1px solid white;
 }
 
-#logo {
-    width: 41%;
+.logo {
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 50%;
 }
 
 
 
 .searchcontent {
-    margin: 300px auto 2px auto;
+    margin: 290px auto 2px auto;
     border: 1px solid black;
-    width: 75%;
     height: 30%;
+    width: 75%;
     background-color: #E6E7E8;
 }
 
@@ -57,11 +78,10 @@
     margin: 0px 0px 0px 0px;
 }
 
-#pics1 {
-    float: left;
+.pics1 {
     height: 110px;
-    width : 5%;
-    margin: 0px 1.2% 0px 1.2%;
+    margin: 0px 0.5% 0px 0.5%;
+    padding: 0px 20px 0px 20px;
 }
 
 .sumarry {
@@ -72,14 +92,13 @@
 .sum {
     padding: 5px 2px 5px 0px;
     float: left;
-    width: 25.8%;
-    height: 280px;
+    height: 98%;
     margin: 5px 1% 0px 1%;
 }
 
 #subtitle {
     height: 40px;
-    margin: 0px 0px 0px 0px;
+    margin: 10px 0px 10px 0px;
     background-color: #E6E7E8;
     text-align: center;
     font-size: 16pt;
@@ -87,25 +106,23 @@
 }
 
 .content {
-    height: 400px;
+    height: 450px;
     margin: 0px 0px 0px 0px;
     background-color: white;
 }
 
-#contentleft {
+.contentleft {
     float: left;
-    width: 27%;
-    height: 365px;
-    margin: 15px 3%;
+    height: 450px;
+    padding: 10px 30px 10px 40px;
 }
 
 
 
-#contentmid {
+.contentmid {
     float: left;
-    width: 27%;
-    height: 365px;
-    margin: 15px 3%;
+    height: 450px;
+    padding: 10px 30px 10px 30px;
 }
 
 #blank {
@@ -156,12 +173,7 @@
     margin: 0px auto;
 }
 
-#pics2 {
-    float: right;
-    height: 110px;
-    width : 5%;
-    margin: 0px 1.2% 0px 1.2%;
-}
+
 
 #gambar {
     float: left;
@@ -201,38 +213,36 @@
 
 
 
-#menukiri #menu1 {
+.menukiri .menu1 {
     float: left;
     padding-top: 20px;
     width: 50%;
-    height: 50px;
+    height: 68px;
     background-color: black;
 }
 
 
 
-#menukiri #menu1:hover {
+.menukiri .menu1:hover {
     background-color: #088998;
 }
 
 
 
-#menukanan #menu2 {
+.menukanan .menu2 {
     padding-top: 20px;
     float: left;
     width: 50%;
-    height: 50px;
+    height: 68px;
 }
 
-#menukanan #menu2:hover {
+.menukanan .menu2:hover {
     background-color: #088998;
 }
 
 #gambarlogo {
-     width: 96.7%;
+     width: 100%;
     height: 300px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 50%;
 }
 
@@ -262,13 +272,13 @@ menu {
 
 #content {
     width: 99%;
-    height: 55%;
+    height: 50%;
     border: 1px solid black;
 }
 
 #ringkasan {
     width: 99%;
-    height: 43%;
+    height: 49%;
     border: 1px solid black;
     background-color: black;
 }
@@ -281,7 +291,6 @@ form {
 .search {
     font-size: 14pt;
     margin 10px;
-    width: 85%;
     padding: 15px 15px;
 }
 
@@ -291,11 +300,11 @@ form {
     border: 1px solid black;
     border-radius: 50%;
     position: relative;
-    padding: 8px 15px;
-    left: 5px;
-    height: 58px;
-    width: 58px;
-    float: right;
+    padding: 0px 0px;
+    float: left;
+    left: 10px;
+    width: 8.33%;
+    height: 65px;
 }
 
 #cari {
@@ -316,11 +325,10 @@ form {
 
 
 
-#contentright {
-    float: right;
-    width: 27%;
-    height: 365px;
-    margin: 15px 3%;
+.contentright {
+    float: left;
+    height: 450px;
+    padding: 10px 40px 10px 30px;
 }
 
 .berita {
@@ -432,10 +440,10 @@ form {
 }
 
 .share {
-    padding: 8px 0px;
+    padding: 9px 0px;
     width: 8%;
-    height: 30px;
-    margin-left: 5px;
+    height: 46px;
+    margin-left: 10px;
 }
 
 .bawahkanan {
@@ -444,16 +452,15 @@ form {
 }
 
 .duta {
-    height: 75px;
+    height: 90px;
     margin: 0px 0px 0px 0px;
     background-color: #E6E7E8;
-    text-align: center;
     font-size: 16pt;
     font-weight: bold;
 }
 
 #duta {
-    width: 75%;
+    width: 85%;
     height: 75px;
     margin: 0px auto;
 }
@@ -469,18 +476,17 @@ form {
 
 .pictduta {
     float: left;
-    width: 7.2%;
+    padding: 0px 5px;
 }
 
 .daftar {
-    width: 17%;
     margin: 3px 15px;
     float: left;
 }
 
-#daftar {
+.daftar2 {
     float: left;
-    margin: 3px 15px;
+    margin: 7px 0px;
 }
 
 .wp {
@@ -683,3 +689,10 @@ h2 {
 }
 
 
+
+
+
+.text {
+    width: 100%;
+    height: 100%;
+}
