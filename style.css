@@ -96,7 +96,7 @@
     margin: 5px 1% 0px 1%;
 }
 
-#subtitle {
+.subtitle {
     height: 40px;
     margin: 10px 0px 10px 0px;
     background-color: #E6E7E8;
@@ -114,7 +114,7 @@
 .contentleft {
     float: left;
     height: 450px;
-    padding: 10px 30px 10px 40px;
+    padding: 10px 0px 10px 40px;
 }
 
 
@@ -125,9 +125,6 @@
     padding: 10px 30px 10px 30px;
 }
 
-#blank {
-
-}
 
 .footer {
     height: 375px;
@@ -142,18 +139,16 @@
     background-color: black;
 }
 
-#footdesc {
+.footdesc {
     float: left;
-    width: 35%;
     height: 325px;
     margin: 0px 0px 0px 0px;
     border: 1px solid black;
     background-color: black;
 }
 
-#contact {
+.contact {
     float: left;
-    width: 35%;
     height: 325px;
     margin: 0px 0px 0px 0px;
     border: 1px solid black;
@@ -339,7 +334,7 @@ form {
 
 #berita {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 #bawah {
@@ -348,9 +343,8 @@ form {
 
 }
 
-#sosmed {
+.sosmed {
     float: right;
-    width: 29.5%;
     height: 325px;
     margin: 0px 0px 0px 0px;
     border: 1px solid black;
