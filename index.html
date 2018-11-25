@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="BAHAN/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body class="fullpage">
+    <!--==============================header=================================-->
+    <header>
+        <div class="container_12">
+            <div class="grid_12">
+                <h1><a href="index.html"><img src="BAHAN/logo.png" alt="Logo"></a> </h1>
+                <div class="clear"></div>
+            </div>
+            <div class="menu_block">
+                <nav class="">
+                    <ul class="sf-menu">
+                        <li class="current"><a href="index.html">Home</a></li>
+                        
+                        <li><a href="galeri.html">Galeri</a></li>
+                        <li><a href="event.html">Event</a></li>
+                        
+                        <li><a href="kuliner.html">Kuliner</a></li>
+                        <li><a href="form.html">Pendaftaran</a></li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="w3-content w3-section" style="max-width:1000px">
+                    <img class="mySlides w3-animate-fading" src="BAHAN/v.png" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="BAHAN/walpaper%20destinasi.png" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="BAHAN/walpaper%20event.png" style="width:100%">
+                    <img class="mySlides w3-animate-fading" src="BAHAN/walpaper%20kuliner.png" style="width:100%">
+                </div>
+                <script>
+                    var myIndex = 0;
+                    carousel();
+
+                    function carousel() {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        myIndex++;
+                        if (myIndex > x.length) {
+                            myIndex = 1
+                        }
+                        x[myIndex - 1].style.display = "block";
+                        setTimeout(carousel, 9000);
+                    }
+
+                </script>
+
+            </div>
+        </div>
+
+        <!--=======content================================-->
+
+        <div class="content">
+            <!--<div class="ic">More Website Templates @ TemplateMonster.com - August 05, 2013!</div>-->
+            <div class="container_12">
+                <div class="grid_12">
+                    <h3>Keunggulan</h3>
+                </div>
+                <div class="boxes">
+                    <div class="grid_4">
+                        <figure>
+                            <div><img src="BAHAN/keunggulan1%2059.726%20mm%2062.957%20mm.png" alt=""></div>
+                            <figcaption>
+                                <h3>Alam yang Mempesona</h3>
+                                Terbentang dari ketinggian pegunungan Argopuro hingga garis pantai selatan, Jember menyajikan berbagai keindahan alam yang mempesona.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid_4">
+                        <figure>
+                            <div><img src="BAHAN/keunggulan2%2059.726%20mm%2062.957%20mm.png" alt=""></div>
+                            <figcaption>
+                                <h3>Seni Budaya Pendhalungan</h3>
+                                Perpaduan antara masyarakat Madura dan Jawa melahirkan keunikan kultur sosial dan seni budaya yang menjadi lahan subur tumbuh kembangnya krativitas
+
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid_4">
+                        <figure>
+                            <div><img src="BAHAN/keunggulan3%2059.726%20mm%2062.957%20mm.png" alt=""></div>
+                            <figcaption>
+                                <h3>Akses Mudah dan Cepat</h3>
+                                Jember mudah dijangkau dengan transportasi darat dan udara, sangat ideal sebagai "starting point" liburan anda di kawasan timur pulau Jawa
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="grid_12">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Destinasi</a></li>
+                            <li><a href="#tabs-2">event</a></li>
+                            <li><a href="#tabs-3">kuliner</a></li>
+                        </ul>
+                        <div class="clear"></div>
+                        <div class="tab_cont" id="tabs-1">
+                            <img src="BAHAN/kantordesa.jpeg" alt="">
+                                <div class="text1">Kantor Desa Kemuningsari Kidul, Jember</div>
+                                <p class="style1">Melihat kantor desa mirip istana negara, dibangun 4 tahun dengan dana Rp 1,8 Miliar. Meski kantornya berada di sekitar area persawahan, struktur bangunan kantor desa Kemuningsari Kidul ini sangat mirip dengan istana negara. </p>
+                                <a href="#" class="btn">Details</a>
+                            
+                                <div class="clear "></div>
+
+                            <div class="clear cl1"></div>
+                            <img src="BAHAN/papuma.jpeg" alt="">
+                                <div class="text1 tx1">Pantai Papuma (Pasir Putih Malikan)</div>
+                            
+                                <p class="style1">Pantai Papuma Jember merupakan salah satu wisata pantai yang dimiliki Jawa Timur. Nama Papuma ini sebenarnya adalah singkatan dari "Pasir Putih Malikan". Dan singkatan tersebutlah yang hingga kini lebih familiar di telinga wisatawan.</p>
+                                <div class="clear"></div>
+                                <a href="#" class="btn bt1">Details</a>
+                            
+                                <div class="clear "></div>
+                            
+                            <div class="clear cl1"></div>
+                            <img src="BAHAN/rembangan.jpeg" alt="">
+                                <div class="text1 tx1">Wahana Wisata Puncak Rembangan</div>
+                                Puncak ini merupakan puncak asli yang ada di Jember. Anda yang hendak berkunjung ke puncak bisa berkunjung ke puncak ini. Banyak fasilitas yang dimiliki oleh puncak ini dan sangat lengkap dibandingkan yang lainnya.
+                                <div class="clear"></div>
+                                <a href="#" class="btn bt1">Details</a>
+                                <div class="clear "></div>
+
+                        </div>
+                        <div class="tab_cont" id="tabs-2">
+                            <img src="BAHAN/jfc.png" alt="">
+                            <div class="extra_wrapper">
+                                <div class="text1">Jember Fashion Carnaval (JFC)</div>
+                                <p class="style1">Jember Fashion Carnaval (Indonesia: Karnaval Busana Jember) atau sering disebut JFC adalah sebuah event karnaval busana yang setiap tahun digelar di Jember, Jawa Timur. Karnaval ini digagas oleh Dynand Fariz yang juga pendiri JFC Center.</p>
+                                <a href="#" class="btn">Details</a>
+                                <div class="clear "></div>
+
+                            </div>
+                            <div class="clear cl1"></div>
+                            <img src="BAHAN/jaran.png" alt="">
+                            <div class="extra_wrapper">
+                                <div class="text1 tx1">Jaran Kencak(Kuda Menari)</div>
+                                Jaran Kencak (Kuda Menari) merupakan salah satu warisan budaya dan seni andalan masyarakat Jember. Tarian Jaran Kencak biasanya dimaninkan oleh masyarakat Jember Selatan apabila ada hajatan untuk menghibur para tamu undangan.
+                                <div class="clear"></div>
+                                <a href="#" class="btn bt1">Details</a>
+                                <div class="clear "></div>
+
+                            </div>
+                            <div class="clear cl1"></div>
+                            <img src="BAHAN/tari.png" alt="">
+                            <div class="extra_wrapper">
+                                <div class="text1 tx1">Tari Lah Baco</div>
+                                Tarian ini menggambarkan petani tembakau di daerah Jember yang memiliki kebiasaan unik saat bercocok tanam, mengolah tembakau, sampai dengan proses pengemasan tembakau yang tumbuh di Jember
+                                <div class="clear"></div>
+                                <a href="#" class="btn bt1">Details</a>
+                                <div class="clear "></div>
+
+                            </div>
+                        </div>
+                        <div class="tab_cont" id="tabs-3">
+
+                            <img src="BAHAN/bakso.png" alt="">
+                            <div class="extra_wrapper">
+                                <div class="text1">Bakso Kabut Bu Juhairiyah</div>
+                                <p class="style1">Kali ini ada varian bakso yang berbeda dari yang lain. Adalah Bakso Kabut. Bakso dengan campuran telur menyelimuti kulit bakso dengan isian daging sapi, sajikan cita rasa berbeda dari bakso pada umumnya.</p>
+                                <a href="#" class="btn">Details</a>
+                                <div class="clear "></div>
+
+                            </div>
+                            <div class="clear cl1"></div>
+                            <img src="BAHAN/suwar.png" alt="">
+                            <div class="extra_wrapper">
+                                <div class="text1 tx1">Suwar - Suwir Khas Jember</div>
+                                Suwar Suwir adalah sejenis makanan ringan yang terbuat dari bahan dasar tape. Suwar Suwir ini memiliki bentuk persegi panjang kecil dengan tampilan yang berwarna warni. Sekilas makan ini hampir mirip dodol.
+                                <div class="clear"></div>
+                                <a href="#" class="btn bt1">Details</a>
+                                <div class="clear "></div>
+
+                            </div>
+                            <div class="clear cl1"></div>
+                            <img src="BAHAN/prol.png" alt="">
+                            <div class="extra_wrapper">
+                                <div class="text1 tx1">Prol Tape Khas Jember</div>
+                                Makanan ini terbuat dari tape yang sudah diinovasi oleh masyarakat jember. Prol tape ini cocok disajikan saat anda berkumpul dengan keluarga. Bahan dari Prol Tape ini antara lain; tape singkong, tepung terigu, margarine, susu, dan telur.
+                                <div class="clear"></div>
+                                <a href="#" class="btn bt1">Details</a>
+                                <div class="clear "></div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="clear"></div>
+                
+            </div>
+        </div>
+        <div class="bottom_block">
+            <div class="container_12">
+                 <div class="grid_2 prefix_2">
+                    <ul>
+                        <img src="BAHAN/logo.png" alt="">
+                    </ul>
+                </div>
+                <div class="grid_2">
+                    <ul>
+                        Website resmi Dinas Pariwista Jember yang bertujuan untuk mempermudah wisatawan lokal maupun domestik untuk mendapatkan informasi dan mengeksplor tentang keindahan destinasi wisata, event, dan juga kuliner yang ada di Kota Jember
+                    </ul>
+                </div>
+                <div class="grid_2">
+                    <ul>
+                        <a href="#"><img src="BAHAN/alamat.png" alt=""></a>
+                    </ul>
+                </div>
+                <div class="grid_2">
+                    <ul>
+                        Jl. Jawa 74 Jember, Sumbersari, Gumuk Kerang, Kabupaten Jember, Jawa Timur
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--==============================footer=================================-->
+
+    </div>
+   <footer>
+        <div class="container_12">
+            <div class="grid_12">
+                <div class="socials">
+                    <a href="#"><img src="BAHAN/fb.png" alt=""></a>
+                    <a href="#"><img src="BAHAN/gmail.png" alt=""></a>
+                    <a href="#"><img src="BAHAN/twit.png" alt=""></a>
+                    <a href="#"><img src="BAHAN/ig.png" alt=""></a>
+                </div>
+                <div class="copy">
+                    Pweb &copy; 2018 | <a href="#">Privacy Policy</a> | Website designed by 13A
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
