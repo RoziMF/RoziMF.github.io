@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 
 @import "../css/grid.css";
-@import "../css/superfish.css";
+@import "../css/s-menu.css";
 
 input {
     outline: none !important;
@@ -26,7 +26,6 @@ body {
     position: relative;
     min-width: 960px;
     background: #000;
-    background: url(../images/bg_body.jpg) center 0 no-repeat #d6bba0;
 }
 
 h1,
@@ -45,7 +44,7 @@ h3 {
     line-height: 44px;
     color: #263555;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 38px;
 }
 
 .page1 h3 {
@@ -58,15 +57,16 @@ h4 {
     line-height: 20px;
     font-weight: 300;
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    padding-top: 33px;
+    color: #000;
+    /*text-transform: uppercase;
+    padding-top: 33px;*/
     margin-bottom: 8px;
 }
 
 
 p {
     margin-bottom: 19px;
+    text-align: justify;
 }
 
 img {
@@ -337,7 +337,7 @@ figcaption h3 {
     color: #ffffff;
     text-align: center;
     padding-top: 18px !important;
-    font-size: 38px;
+    font-size: 33px;
     margin-bottom: 18px !important;
     font-family: 'Open Sans Condensed', sans-serif;
 
@@ -405,9 +405,7 @@ a.gal:hover img {
     margin-bottom: 0;
 }
 
-.gallery .clear {
-    height: 46px;
-}
+
 
 /*Konten CSS*/
 
@@ -596,9 +594,7 @@ blockquote p {
     overflow: hidden;
 }
 
-.tours .clear {
-    height: 47px;
-}
+
 
 .form1 {
     margin-right: 2px;
@@ -618,12 +614,7 @@ blockquote p {
     margin-top: 23px;
 }
 
-a.comment {
-    margin-top: 2px;
-    display: inline-block;
-    float: right;
-    margin-right: 85px;
-}
+
 
 
 .blog + .blog {
@@ -704,4 +695,39 @@ footer {
     padding-top: 26px;
     padding-bottom: 40px;
     color: #797979;
+}
+
+.fullpage {
+    background-color: #088998;
+}
+
+
+
+.lebar {
+    width: 90%;
+}
+
+
+
+.mabott {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.warna {
+    color: #088998;
+}
+
+#daftar1 {
+background-color: black;    
+   font-size: 20pt;
+    border-radius: 20px;
+    color:white;
+    margin-left: 80%;
 }
