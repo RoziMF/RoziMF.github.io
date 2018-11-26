@@ -4,7 +4,7 @@
 <head>
     <title>Pendaftaran</title>
     <meta charset="utf-8">
-    <link rel="icon" href="BAHAN/logo.png">
+    <link rel="icon" href="BAHAN/LOGO.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -21,8 +21,9 @@
                     <ul class="sf-menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="destinasi.html">Destinasi</a></li>
-                        <li><a href="galeri.html">Gallery</a></li>
+
                         <li><a href="event.html">Event</a></li>
+                        <li><a href="berita.html">Berita</a></li>
                         <li><a href="kuliner.html">Kuliner</a></li>
                         <li class="current"><a href="form.html">Pendaftaran</a></li>
                     </ul>
@@ -39,126 +40,90 @@
         <div class="content">
             <div class="container_12">
                 <div class="grid_9">
-                    <form action="">
-                        Nama Depan : 
-                        <input type="text" name="" id=""><br>
-                        Nama Belakang :
-                        <input type="text" name="" id=""><br>
-                        Tempat Lahir : 
-                        <input type="text" name="" id=""><br>
-                        Tanggal lahir :
-                        <input type="date" name="" id=""><br>
-                        Agama : 
-                        <input type="text" name="" id=""><br>
-                        Pendidikan : 
-                        <input type="text" name="" id=""><br>
-                        Perwakilan dari : 
-                        <input type="text" name="" id=""><br>
-                        Alamat : 
-                        <textarea name="" id="" cols="30" rows="10"></textarea><br>
-                        No Telepon/HP :
-                        <input type="text" name="" id=""><br>
-                        Email : 
-                        <input type="email" name="" id=""><br>
-                        Tinggi Badan : 
-                        <input type="text" name="" id=""><br>
-                        Berat Badan : 
-                        <input type="text" name="" id=""><br>
-                        Hobby : <br>
-                        <tr>
-                            <td>1.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr><br>
-                        Bahasa yang dikuasai
-                        <tr>
-                            <td>1</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr><br>
-                        Keterampilan
-                        <tr>
-                            <td>1.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr><br>
-                        Penghargaan yang diperoleh
-                        <tr>
-                            <td>1.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>2.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>3.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr>
-                        <tr>
-                            <td>4.</td>
-                            <td><input type="text" name="" id=""></td>
-                        </tr><br>
-                        Fotocopy Piagam <br>
-                        <input type="file" name="" id=""><br>
-                        Pas Foto 4x6 Berwarna Terbaru <br>
-                        <input type="file" name="" id=""><br>
-                        Fotokopi KTP/Kartu Pelajar <br>
-                        <input type="file" name="" id=""><br>
-                        Surat ijin orang tua / wali <br>
-                        <input type="file" name="" id=""><br>
-                        Surat Keterangan Sehat <br>
-                        <input type="file" name="" id="">
-                    </form>
+                    <fieldset>
+                        <legend>
+                            <h3 class="warna">Form Pendaftaran Duta Pariwisata</h3>
+                        </legend>
+                        <form action="">
+                            Nama Depan : <br>
+                            <input class="mabott" size="50" maxlength="30" type="text" name="firstname" id="firstname"><br>
+                            Nama Belakang : <br>
+                            <input class="mabott" size="50" maxlength="30" type="text" name="" id=""><br>
+                            Tempat Lahir : <br>
+                            <input class="mabott" type="text" size="50" maxlength="30" name="" id=""><br>
+                            Tanggal lahir :
+                            <input class="mabott" type="date" name="" id=""><br>
+                            Agama :
+                            <select class="mabott" name="agama" id="agama">
+                                <option value="">Pilih Agama</option>
+                                <option value="islam">Islam</option>
+                                <option value="kristen">Kristen</option>
+                                <option value="katolik">Katolik</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="budha">Budha</option>
+                                <option value="konghuchu">Konghuchu</option>
+                            </select><br>
+                            Pendidikan :<br>
+                            <input type="radio" name="pend" id="SD">SD
+                            <input type="radio" name="pend" id="SMP">SMP
+                            <input type="radio" name="pend" id="SMA">SMA
+                            <input type="radio" name="pend" id="Universitas">Universitas <br>
+                            Perwakilan dari : <br>
+                            <input type="radio" name="perwakilandari" id="Umum">Umum
+                            <input type="radio" name="perwakilandari" id="Kecamatan">Kecamatan
+                            <input type="radio" name="perwakilandari" id="Sekolah">Sekolah <br>
+                            Alamat : <br>
+                            <textarea class="mabott" name="alamat" id="alamat" cols="50" rows="5"></textarea><br>
+                            No Telepon/HP : <br>
+                            <input class="mabott" size="50" maxlength="13" type="text" name="nohp" id="nohp"><br>
+                            Email : <br>
+                            <input class="mabott" size="50" maxlength="30" type="email" name="email" id="email"><br>
+                            Tinggi Badan (cm) :
+                            <input class="mabott" size="33" maxlength="3" type="text" name="tinggi" id="tinggi"><br>
+                            Berat Badan (kg) :
+                            <input class="mabott" size="34" maxlength="3" type="text" name="firstname" id="firstname"><br>
+                            <b>Hobby : </b><br>
+                            1. <input class="mabott" size="47" maxlength="30" type="text" name="hobi" id="hobi1"><br>
+                            2. <input class="mabott" size="47" maxlength="30" type="text" name="hobi" id="hobi2"><br>
+                            3. <input class="mabott" size="47" maxlength="30" type="text" name="hobi" id="hobi3"><br>
+                            <b>Bahasa yang dikuasai : </b><br>
+                            1. <input class="mabott" size="47" maxlength="30" type="text" name="bahasa" id="bahasa1"><br>
+                            2. <input class="mabott" size="47" maxlength="30" type="text" name="bahasa" id="bahasa2"><br>
+                            3. <input class="mabott" size="47" maxlength="30" type="text" name="bahasa" id="bahasa3"><br>
+                            4. <input class="mabott" size="47" maxlength="30" type="text" name="bahasa" id="bahasa4"><br> <b>Keterampilan </b><br>
+                            1. <input class="mabott" size="47" maxlength="30" type="text" name="keterampilan" id="keterampilan1"><br>
+                            2. <input class="mabott" size="47" maxlength="30" type="text" name="keterampilan" id="keterampilan2"><br>
+                            3. <input class="mabott" size="47" maxlength="30" type="text" name="keterampilan" id="keterampilan1"><br>
+                            <b>Penghargaan yang diperoleh</b> <br>
+                            1. <input class="mabott" size="47" maxlength="30" type="text" name="penghargaan" id="penghargan1"><br>
+                            2. <input class="mabott" size="47" maxlength="30" type="text" name="penghargaan" id="penghargan2"><br>
+                            3. <input class="mabott" size="47" maxlength="30" type="text" name="penghargaan" id="penghargan3"><br>
+                            4. <input class="mabott" size="47" maxlength="30" type="text" name="penghargaan" id="penghargan4"><br>
+                            <b>Fotocopy Piagam :</b> <br>
+                            <input class="mabott" type="file" name="piagam" id="piagam"><br>
+                            <b>Pas Foto 4x6 Berwarna Terbaru :</b><br>
+                            <input class="mabott" type="file" name="foto" id="foto"><br>
+                            <b>Fotokopi KTP/Kartu Pelajar :</b><br>
+                            <input class="mabott" type="file" name="ktp" id="ktp"><br>
+                            <b>Surat ijin orang tua / wali :</b><br>
+                            <input class="mabott" type="file" name="sijin" id="sijin"><br>
+                            <b>Surat Keterangan Sehat :</b><br>
+                            <input class="mabott" type="file" name="sks" id="sks"><br><br>
+                            <input id= "daftar1" type="button" value="Daftar">
+                        </form>
+                    </fieldset>
                 </div>
                 <div class="grid_3">
-                    <h3>Kategori</h3>
-                    <ul class="list2 l1">
-                        <li><a href="#">Fgo psu dr sit amek </a></li>
-                        <li><a href="#">Sem psum dr sit ametre conse
-                            </a></li>
-                        <li><a href="#">Rame sum dr sit ame consec</a></li>
-                        <li><a href="#">Bem psum dr sit ameteko </a></li>
-                        <li><a href="#">Nem dsum dr sit amewas </a></li>
-                        <li><a href="#">Vcem psum dr sit </a></li>
-                    </ul>
-                    <h3>Arsip</h3>
-                    <ul class="list2 l1">
-                        <li><a href="#">November 2018</a></li>
-                        <li><a href="#">Oktober 2018</a></li>
-                        <li><a href="#">September 2018</a></li>
-                        <li><a href="#">Agustus 2018</a></li>
-                        <li><a href="#">Juli 2018</a></li>
-                        <li><a href="#">Juni 2018</a></li>
-                        <li><a href="#">Mei 2018</a></li>
-                        <li><a href="#">April 2018</a></li>
-                        <li><a href="#">Maret 2018</a></li>
-                    </ul>
+                    <h3>Dokumentasi</h3>
+                    <img src="BAHAN/form1.jpeg" width="100%" alt="">
+                    <img src="BAHAN/form2.jpg" width="100%" alt="">
+                    <img src="BAHAN/form3.jpeg" width="100%" alt="">
+                    <img src="BAHAN/form4.jpg" width="100%" alt="">
+                    <img src="BAHAN/form5.jpg" width="100%" alt="">
+                    <img src="BAHAN/form6.jpg" width="100%" alt="">
+                    <img src="BAHAN/form7.jpg" width="100%" alt="">
+                    <img src="BAHAN/form8.jpg" width="100%" alt="">
+                    <img src="BAHAN/form9.jpeg" width="100%" alt="">
                 </div>
                 <div class="clear"></div>
             </div>
@@ -167,24 +132,32 @@
         <!--=======bottom================================-->
         <div class="bottom_block">
             <div class="container_12">
-                <div class="grid_2 prefix_2">
+                <div class="grid_3">
                     <ul>
-                        <img src="BAHAN/logo.png" alt="">
+                        <img src="BAHAN/LOGO.png" alt="">
                     </ul>
                 </div>
                 <div class="grid_2">
                     <ul>
-                        Website resmi Dinas Pariwista Jember yang bertujuan untuk mempermudah wisatawan lokal maupun domestik untuk mendapatkan informasi dan mengeksplor tentang keindahan destinasi wisata, event, dan juga kuliner yang ada di Kota Jember
+                        Website resmi Dinas Pariwisata Kota Jember yang bertujuan untuk mempermudah wisatawan lokal maupun domestik untuk mendapatkan informasi dan mengeksplor tentang keindahan destinasi wisata, event, dan juga kuliner yang ada di Kota Jember
                     </ul>
                 </div>
-                <div class="grid_2">
+                <div class="grid_4">
+                    <ul>
+                        <img src="BAHAN/pariwisata%20jember%20228.25%20mm%2047.135%20mm.png" alt="">
+                    </ul>
+                </div>
+                <div class="grid_1">
                     <ul>
                         <a href="#"><img src="BAHAN/alamat.png" alt=""></a>
+
                     </ul>
                 </div>
                 <div class="grid_2">
                     <ul>
+
                         Jl. Jawa 74 Jember, Sumbersari, Gumuk Kerang, Kabupaten Jember, Jawa Timur
+
                     </ul>
                 </div>
                 <div class="clear"></div>
